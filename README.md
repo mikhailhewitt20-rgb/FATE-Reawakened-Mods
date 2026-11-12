@@ -14,10 +14,10 @@ Individual project repositories and releases:
 - [FATE Elemental Reactions](https://github.com/mikhailhewitt20-rgb/FATE-Elemental-Reactions)
 - [FATE Mod Menu](https://github.com/mikhailhewitt20-rgb/FATE-Mod-Menu)
 - [FATE Music Player](https://github.com/mikhailhewitt20-rgb/FATE-Music-Player) (the mod itself; no music packs)
+- [FATE Pain FX Mod](https://github.com/mikhailhewitt20-rgb/FATE-Pain-FX-Mod) (work in progress; no installable package yet)
 - [FATE Permanent Storage](https://github.com/mikhailhewitt20-rgb/FATE-Permanent-Storage)
 - [FATE Quick Spell Mod](https://github.com/mikhailhewitt20-rgb/FATE-Quick-Spell)
 - [FATE Rebind](https://github.com/mikhailhewitt20-rgb/FATE-Rebind)
 - [FATE Vortex Extension](https://github.com/mikhailhewitt20-rgb/FATE-Vortex-Extension)
 
 Some projects use local game/BepInEx assemblies for builds. See each project README and build script for prerequisites. `FILE-MANIFEST.csv` lists files included in this collection and their hashes.
-
