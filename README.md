@@ -20,3 +20,4 @@ Individual project repositories and releases:
 - [FATE Vortex Extension](https://github.com/mikhailhewitt20-rgb/FATE-Vortex-Extension)
 
 Some projects use local game/BepInEx assemblies for builds. See each project README and build script for prerequisites. `FILE-MANIFEST.csv` lists files included in this collection and their hashes.
+

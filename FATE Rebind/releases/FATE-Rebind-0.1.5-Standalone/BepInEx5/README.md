@@ -29,8 +29,8 @@ The window does not add a multiplayer/world pause.
 
 Unity InputAction assets are discovered automatically. Mods may register labelled
 providers/actions through RebindApi. Raw hard-coded key polling requires the owning
-mod to use the API or an adapter. See API.md and PartGhostControlsBridge.cs.
-No PartGhost or Zombie Ghost co-op DLL is bundled or required.
+mod to use the API or an adapter. See API.md and the compatibility bridge source.
+No co-op DLL is bundled or required.
 
 ## Verification and removal
 
@@ -39,3 +39,4 @@ clicks and rebinding require the user's gameplay test; they are not confirmed ye
 No game was launched or controlled, and this ZIP was not automatically installed.
 Uninstall Rebind in the manager with the game closed. Keep or remove its config
 folder according to whether you want to preserve saved bindings.
+

@@ -51,7 +51,7 @@ their own labelled groups/actions through `RebindApi`. Raw hard-coded polling
 such as `Mouse.current.middleButton` cannot be changed generically: the owning
 mod must use the API or a specific adapter. See `API.md` and the bridge example.
 
-PartGhost's current co-op is not installed, bundled, required or patched. Its
+The current co-op mod is not installed, bundled, required or patched. Its
 WASD implementation reads the game's `Persistent/Move` action, already included
 in the default list. Its raw middle-mouse camera hold needs the provided bridge
 pattern when the separate controls mod becomes available. That integration is
@@ -67,6 +67,7 @@ Close the game and remove this mod using the manager, or remove only
 `BepInEx/plugins/FateRebind` from its profile. Leave the shared BepInEx runtime
 alone if other mods need it. Remove the mod's settings directory separately only
 if you also want to forget your rebinds. Other mods' configurations are untouched.
+
 
 
 

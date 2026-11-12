@@ -145,5 +145,6 @@ Validated by compilation and package inspection; the cursor and click paths shou
   when in range.
 - Vertical aim stops at the top edge by design. The camera pitch is untouched, matching the
   game's inability to look up.
-- Not compatible with the original PartGhost co-op bundle's built-in keyboard controls; use the
+- Not compatible with built-in co-op keyboard controls; use the
   standalone WASD and Camera Turn plugins that this package declares.
+

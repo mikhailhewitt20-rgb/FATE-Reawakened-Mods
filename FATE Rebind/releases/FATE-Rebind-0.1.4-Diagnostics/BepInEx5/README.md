@@ -53,7 +53,7 @@ their own labelled groups/actions through `RebindApi`. Raw hard-coded polling
 such as `Mouse.current.middleButton` cannot be changed generically: the owning
 mod must use the API or a specific adapter. See `API.md` and the bridge example.
 
-PartGhost's current co-op is not installed, bundled, required or patched. Its
+The current co-op mod is not installed, bundled, required or patched. Its
 WASD implementation reads the game's `Persistent/Move` action, already included
 in the default list. Its raw middle-mouse camera hold needs the provided bridge
 pattern when the separate controls mod becomes available. That integration is
@@ -78,5 +78,6 @@ if you also want to forget your rebinds. Other mods' configurations are untouche
 ## 0.1.3 Settings integration repair
 
 The editor is now constructed directly from OptionsTabs.Init and SetTab, with its own native panel lifecycle. The old immediate-mode overlay and separate ControllersUI hooks have been removed. Menu actions temporarily disabled during capture are restored when capture ends. The log records REBIND_CONTROLS_INSTALLED and REBIND_SETTINGS_OPEN with the binding count.
+
 
 
