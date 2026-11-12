@@ -1,0 +1,9 @@
+{
+  "name": "FATE_ElementalReactions",
+  "version_number": "0.2.1",
+  "website_url": "",
+  "description": "Standalone FATE elemental test mod: Ruby Pyro, Opal Cryo, Turquoise Electro, F8 training dummies, and socketable test swords.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305"
+  ]
+}

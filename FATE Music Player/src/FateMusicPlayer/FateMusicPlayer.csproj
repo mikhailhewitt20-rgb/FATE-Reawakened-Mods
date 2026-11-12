@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <!-- net472 rather than netstandard2.1: the song picker uses System.Windows.Forms
+       for the file dialog and System.IO.Compression for export zips. BepInEx 5
+       loads net472 plugins without issue. -->
+  <TargetFramework>net472</TargetFramework><LangVersion>latest</LangVersion>
+  <AssemblyName>FateMusicPlayer</AssemblyName><Version>0.3.4</Version>
+  <Authors>MikhailKillsZombies</Authors>
+  <OutputPath>bin/$(Configuration)/</OutputPath>
+  <DefaultItemExcludes>$(DefaultItemExcludes);bin/**;obj/**</DefaultItemExcludes>
+  <GameManaged Condition="'$(GameManaged)'==''">D:/SteamLibrary/steamapps/common/FATE Reawakened/FateReawakened_Data/Managed</GameManaged>
+  <LoaderCore Condition="'$(LoaderCore)'==''">$(MSBuildProjectDirectory)/../../../FATE Shared Workspace/tools/bepinex/BepInEx/core</LoaderCore>
+ </PropertyGroup>
+ <ItemGroup>
+  <Reference Include="BepInEx"><HintPath>$(LoaderCore)/BepInEx.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="0Harmony"><HintPath>$(LoaderCore)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="Assembly-CSharp"><HintPath>$(GameManaged)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine"><HintPath>$(GameManaged)/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.AudioModule"><HintPath>$(GameManaged)/UnityEngine.AudioModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>$(GameManaged)/UnityEngine.UnityWebRequestModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.UnityWebRequestAudioModule"><HintPath>$(GameManaged)/UnityEngine.UnityWebRequestAudioModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="System.Windows.Forms"><HintPath>$(GameManaged)/System.Windows.Forms.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="System.Runtime.Serialization"><HintPath>$(GameManaged)/System.Runtime.Serialization.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="System.IO.Compression"><HintPath>$(GameManaged)/System.IO.Compression.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="System.IO.Compression.FileSystem"><HintPath>$(GameManaged)/System.IO.Compression.FileSystem.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>

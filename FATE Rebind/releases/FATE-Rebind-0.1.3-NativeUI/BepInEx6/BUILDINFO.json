@@ -1,0 +1,7 @@
+{
+  "name": "FATE Rebind",
+  "version": "0.1.3",
+  "runtime": "BepInEx 6 Unity Mono x64 required, not included",
+  "type": "Manual test archive; not a Thunderstore upload package",
+  "coopRequired": false
+}

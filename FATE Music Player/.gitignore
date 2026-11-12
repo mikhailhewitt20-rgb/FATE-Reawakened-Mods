@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+build/
+releases/
+*.user
+*.suo
+
+# Local tooling
+.vs/
+.vscode/
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store

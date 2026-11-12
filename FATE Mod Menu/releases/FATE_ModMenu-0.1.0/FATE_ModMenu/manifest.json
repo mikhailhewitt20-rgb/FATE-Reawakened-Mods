@@ -1,0 +1,10 @@
+{
+    "name":  "FATE_ModMenu",
+    "version_number":  "0.1.0",
+    "website_url":  "",
+    "description":  "Adds a Mod Settings button to the pause menu, showing the options installed mods register in a native-style screen.",
+    "dependencies":  [
+                         "BepInEx-BepInExPack-5.4.2305",
+                         "MikhailKillsZombies-Rebinds_Mod-0.1.19"
+                     ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 4,
+  "tiles": [
+    {"x": -1, "z": -1, "ox": 0.0239257813, "oy": 0, "oz": 0.01171875, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": false},
+    {"x": 0, "z": -1, "ox": 0.00219726563, "oy": 0, "oz": -0.767822266, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": false},
+    {"x": 1, "z": 1, "ox": -7.475586, "oy": 0, "oz": -10.1252441, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 1, "z": 2, "ox": -7.12890625, "oy": 0, "oz": 17.9138184, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 2, "z": 1, "ox": -13.892334, "oy": 0, "oz": -6.734619, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 2, "z": 2, "ox": -13.779541, "oy": 0, "oz": 15.746582, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 2, "z": 3, "ox": 13.998291, "oy": 0, "oz": 13.9189453, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 3, "z": 3, "ox": 11.4116211, "oy": 0, "oz": -17.87207, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 4, "z": 3, "ox": -18.41211, "oy": 0, "oz": 16.1799316, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 5, "z": 3, "ox": 5.84423828, "oy": 0, "oz": -13.5371094, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true},
+    {"x": 5, "z": 4, "ox": 5.901367, "oy": 0, "oz": 6.952881, "sx": 0, "sy": 0, "sz": 0, "removed": false, "added": true}
+  ]
+}

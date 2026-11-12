@@ -1,0 +1,9 @@
+{
+    "name":  "FATE_PermanentStorage",
+    "version_number":  "0.3.8",
+    "website_url":  "",
+    "description":  "A permanent, player-owned storage room behind the Grove fishing dock, reached through a storage entrance, with three persistent storage chests, cycleable dungeon wall sets, an in-room wall editor and a Mimic Chest drop.",
+    "dependencies":  [
+                         "BepInEx-BepInExPack-5.4.2305"
+                     ]
+}

@@ -1,0 +1,9 @@
+{
+    "name":  "FATE_QuickSpell",
+    "version_number":  "0.2.9",
+    "website_url":  "",
+    "description":  "Direction-based spell wheel: hold the key, flick towards a spell, release to activate it. The cursor is hidden while the wheel is up and nothing has to be clicked.",
+    "dependencies":  [
+                         "BepInEx-BepInExPack-5.4.2305"
+                     ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "FATE_Rebind",
+  "version_number": "0.1.9",
+  "website_url": "https://thunderstore.io/c/fate-reawakened/",
+  "description": "Modular keybind menu for native FATE controls and mod InputActions. Standalone; no co-op mod required.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305"
+  ]
+}

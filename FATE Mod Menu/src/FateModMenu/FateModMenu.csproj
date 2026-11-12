@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <TargetFramework>netstandard2.1</TargetFramework><LangVersion>latest</LangVersion>
+  <AssemblyName>ZombieGhost.ModMenu</AssemblyName><Version>0.4.4</Version>
+  <Authors>MikhailKillsZombies</Authors>
+  <LoaderMajor Condition="'$(LoaderMajor)'==''">5</LoaderMajor>
+  <OutputPath>bin/BepInEx$(LoaderMajor)/$(Configuration)/</OutputPath>
+  <DefaultItemExcludes>$(DefaultItemExcludes);bin/**;obj/**</DefaultItemExcludes>
+  <GameManaged>D:/SteamLibrary/steamapps/common/FATE Reawakened/FateReawakened_Data/Managed</GameManaged>
+  <LoaderCore Condition="'$(LoaderMajor)'=='5'">$(MSBuildProjectDirectory)/../../../FATE Shared Workspace/tools/bepinex/BepInEx/core</LoaderCore>
+  <LoaderCore Condition="'$(LoaderMajor)'=='6'">$(MSBuildProjectDirectory)/../../../FATE Shared Workspace/FateCoop Mod Zip 14 1 2026-10-21T07-40Z MJ4g50SSp/BepInEx/core</LoaderCore>
+  <DefineConstants Condition="'$(LoaderMajor)'=='6'">$(DefineConstants);BEPINEX6</DefineConstants>
+ </PropertyGroup>
+ <ItemGroup>
+  <Reference Include="BepInEx" Condition="'$(LoaderMajor)'=='5'"><HintPath>$(LoaderCore)/BepInEx.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="BepInEx.Core" Condition="'$(LoaderMajor)'=='6'"><HintPath>$(LoaderCore)/BepInEx.Core.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="BepInEx.Unity.Mono" Condition="'$(LoaderMajor)'=='6'"><HintPath>$(LoaderCore)/BepInEx.Unity.Mono.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="0Harmony"><HintPath>$(LoaderCore)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine"><HintPath>$(GameManaged)/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(GameManaged)/UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(GameManaged)/UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.UI"><HintPath>$(GameManaged)/UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.UIModule"><HintPath>$(GameManaged)/UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameManaged)/UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="Unity.InputSystem"><HintPath>$(GameManaged)/Unity.InputSystem.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="Unity.TextMeshPro"><HintPath>$(GameManaged)/Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>

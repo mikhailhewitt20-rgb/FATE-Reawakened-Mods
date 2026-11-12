@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <TargetFramework>netstandard2.1</TargetFramework><LangVersion>latest</LangVersion>
+  <AssemblyName>mikhailkillszombies.FateAiming</AssemblyName><Version>0.5.6</Version>
+  <Authors>MikhailKillsZombies</Authors><Company>MikhailKillsZombies</Company><Copyright>Copyright (c) 2026 MikhailKillsZombies</Copyright>
+  <OutputPath>bin/$(Configuration)/</OutputPath>
+  <DefaultItemExcludes>$(DefaultItemExcludes);bin/**;obj/**</DefaultItemExcludes>
+  <GameManaged>D:/SteamLibrary/steamapps/common/FATE Reawakened/FateReawakened_Data/Managed</GameManaged>
+  <LoaderCore>../../../FATE Shared Workspace/tools/bepinex/BepInEx/core</LoaderCore>
+ </PropertyGroup>
+ <ItemGroup>
+  <Reference Include="BepInEx"><HintPath>$(LoaderCore)/BepInEx.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="0Harmony"><HintPath>$(LoaderCore)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="Assembly-CSharp"><HintPath>$(GameManaged)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(GameManaged)/Assembly-CSharp-firstpass.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="Unity.InputSystem"><HintPath>$(GameManaged)/Unity.InputSystem.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine"><HintPath>$(GameManaged)/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(GameManaged)/UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.AIModule"><HintPath>$(GameManaged)/UnityEngine.AIModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameManaged)/UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="UnityEngine.UI"><HintPath>$(GameManaged)/UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>
