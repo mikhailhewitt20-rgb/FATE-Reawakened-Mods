@@ -1,0 +1,10 @@
+{
+  "name": "FATE_MusicPlayer",
+  "version_number": "0.2.2",
+  "website_url": "",
+  "description": "Your own soundtrack, by location: FATE's music grouped by Grove, Druantia, Typhon, Temple of Fate, Ekbatan, dungeons and Fate events, a checkbox to keep a song in the shuffle, five-second previews, plus your own songs and packs.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "MikhailKillsZombies-FATE_ModMenu-0.3.6"
+  ]
+}

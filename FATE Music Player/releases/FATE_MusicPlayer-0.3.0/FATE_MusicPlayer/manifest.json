@@ -1,0 +1,10 @@
+{
+  "name": "FATE_MusicPlayer",
+  "version_number": "0.3.0",
+  "website_url": "",
+  "description": "Your own soundtrack, by location: toggle, select and preview FATE's music, tune each loop by ear, add your own songs, and export or install song packs.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "MikhailKillsZombies-FATE_ModMenu-0.4.0"
+  ]
+}
